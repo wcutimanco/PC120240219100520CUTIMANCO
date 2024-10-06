@@ -80,6 +80,7 @@ namespace PC120240219100520CUTIMANCO.Controllers
         {
             _context.Organizers.Add(organizers);
             await _context.SaveChangesAsync();
+            //william
 
             return CreatedAtAction("GetOrganizers", new { id = organizers.Id }, organizers);
         }
