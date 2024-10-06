@@ -1,0 +1,6 @@
+@PC120240219100520CUTIMANCO_HostAddress = http://localhost:5096
+
+GET {{PC120240219100520CUTIMANCO_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
